@@ -1,0 +1,15 @@
+Esta práctica estaba enfocada al trabajo colaborativo. Como ahora solamente estoy
+estudiando para el examen, la parte a realizar por los demás miembros del equipo
+no la realizaré pero si dejo aquí indicado los comandos más importantes.
+
+Para clonar el repositorio remoto creado por el supuesto coordinador:
+  - Los demás integrantes deberán situarse en el directorio de trabajo e 
+    introducir: git clone git@github.com:LPP-Rodi/prct02.git (en este caso)
+    
+  - Crear una rama llamada desarrollo: git branch desarrollo
+  
+  - Mostrar la rama activa: git branch
+  
+  - Situarse en la rama desarrollo: git checkout desarrollo
+  
+  
