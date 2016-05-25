@@ -49,6 +49,12 @@ IMPORTANTE:
       A continuación lo que hacemos es interpretar esa clase mediante:
       java HelloWorld
       
+Trabajo git:
+
+      - Crear una rama: git branch nombre_rama
+      - Mostrar la rama activa: git branch
+      - Cambiar a otra rama: git checkout nombre_rama
+      - Podemos hacer directamente la creación y cambio con: git checkout -b nombre_nueva
       
     
     

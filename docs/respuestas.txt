@@ -1,1 +1,2 @@
 Trabajo en equipo con git
+Ahora deberia poner la diferencia entre lenguaje compilado e interpretado pero toda la teoría la dejo para el archivo personal de windows para esta asignatura.
