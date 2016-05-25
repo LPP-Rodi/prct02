@@ -60,5 +60,9 @@ Trabajo git:
       - Cambiar a otra rama: git checkout nombre_rama
       - Podemos hacer directamente la creación y cambio con: git checkout -b nombre_nueva
       
+      
+      Para fusionar las dos ramas, primero nos situamos en la rama master y desde ella
+      git merge documentacion  y después borramos la otra rama ya que en este caso no la
+      necesitaremos más: git branch -d documentacion.
     
     
