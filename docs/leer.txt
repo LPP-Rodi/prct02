@@ -39,6 +39,10 @@ IMPORTANTE:
       
       Para la ejecución del programa en bash, únicamente ./helloWorld.sh
       Para la ejecución del programa en python: python ./helloWorld.py
+      
+      Un programa escrito en bash, un script, contiene una primera línea #!/bin/sh
+      que indica a la shell que /bin/sh es el programa con el que se debe ejecutar este 
+      fichero.
     
     - Java es interpretado a la vez que compilado por eso es un proceso un tanto dife-
       rente. Primero se interpreta a través de: javac helloWorld.java
