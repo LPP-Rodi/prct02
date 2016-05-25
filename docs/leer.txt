@@ -12,4 +12,43 @@ Para clonar el repositorio remoto creado por el supuesto coordinador:
   
   - Situarse en la rama desarrollo: git checkout desarrollo
   
+INTERESANTE:
+
+  - Para correr archivos c por ejemplo, primero debemos compilarlos en un archivo:
   
+    gcc -o nombreQueQueramos helloWorld.c
+    
+    donde nombreQueQueramos es el archivo que contendrá el programa ya compilado y
+    helloWorld.c es el nombre del archivo de c.
+    
+    Después de esto, para correr nuestro archivo compilado, en este caso:
+    
+    ./nombreQueQueramos
+    
+    -> En el caso de que el programa esté escrito en c++ en vez de gcc haremos g++ y 
+    el resto exactamente igual.
+    
+    
+IMPORTANTE:
+  
+    Para obtener el mismo resultado (la ejecución de un programa) en bash, python y java
+    el proceso es similar pero completamente diferente. Esto es así porque:
+    
+    - Bash y Python son lenguajes interpretados y no compilados por lo que no es 
+      necesaria una fase de compilación para su ejecución.
+      
+      Para la ejecución del programa en bash, únicamente ./helloWorld.sh
+      Para la ejecución del programa en python: python ./helloWorld.py
+    
+    - Java es interpretado a la vez que compilado por eso es un proceso un tanto dife-
+      rente. Primero se interpreta a través de: javac helloWorld.java
+    
+      Esto nos crea un archivo nuevo en nuestro directorio llamado en este caso 
+      HelloWorld.class
+      
+      A continuación lo que hacemos es interpretar esa clase mediante:
+      java HelloWorld
+      
+      
+    
+    
